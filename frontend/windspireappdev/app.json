@@ -1,0 +1,87 @@
+{
+  "expo": {
+    "name": "winspire",
+    "slug": "winspire",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "com.windspire.app",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/splash-icon.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#000000",
+        "dark": {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#000000"
+        }
+      },
+      "bundleIdentifier": "com.winspire",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.winspire",
+              "com.windspire.app",
+              "exp"
+            ]
+          }
+        ]
+      },
+      "appleTeamId": "T6DM85B869"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "splash": {
+        "image": "./assets/images/splash-icon.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#000000",
+        "dark": {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#000000"
+        }
+      },
+      "package": "com.winspire"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000000",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "dark": {
+            "backgroundColor": "#000000",
+            "image": "./assets/images/splash-icon.png"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5a121d22-734f-4212-866b-560340c53f90"
+      }
+    },
+    "owner": ""
+  }
+}

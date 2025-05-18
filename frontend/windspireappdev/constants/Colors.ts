@@ -1,0 +1,16 @@
+export const Colors = {
+  red: "#ff5757",
+  red2: "#fa3333",
+  blue: "#4f9ef4",
+  gray: "#414141",
+  gray2: "#3a3a3e",
+  blue2: "#004aad",
+  green: "#00bf63",
+  black: "#121212",
+  white: "#ffffff",
+  darkGray: "#1c1c1d",
+  lightGray: "#a6a6a6",
+  lightGray2: "#c2c1bb",
+  cardSeperator: "#272323",
+  cardBackground: "#e1dfd3",
+};
